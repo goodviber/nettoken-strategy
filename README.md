@@ -6,15 +6,12 @@ This gem provides a simple way to authenticate to Nettoken Web API using OmniAut
 
 Add this line to your application's Gemfile:
 
-    gem 'omniauth-nettoken'
+    gem 'omniauth-nettoken', :git => "git://github.com/goodviber/nettoken-strategy.git" 
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install omniauth-nettoken
 
 ## OmniAuth
 
